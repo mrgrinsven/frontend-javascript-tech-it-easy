@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    font-size: 2em;
+}
+
+#total-sold-televisions {
+    color: green;
+}
+
+#total-original-stock {
+    color: blue;
+}
+
+#stock-left-to-sell {
+    color: red;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 40px 0 40px 0;
+}
+
+.television-list {
+    padding: 12px 0 12px 0;
+}
+
+button {
+    background-color: orange;
+    margin: 40px 0 40px 0;
+    font-size: 1em;
+    padding: 10px;
+}
