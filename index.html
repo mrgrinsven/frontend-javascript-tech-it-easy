@@ -3,8 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Tech It Easy Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
+    <script defer src="opdracht-1.js"></script>
+    <script defer src="opdracht-2.js"></script>
+    <script defer src="opdracht-3.js"></script>
+    <script defer src="opdracht-4.js"></script>
+    <script defer src="opdracht-bonus.js"></script>
 </head>
 <body>
-
+<div>
+    <p>Aantal verkochte tv's:
+        <span id="total-sold-televisions"></span>
+    </p>
+</div>
+<div>
+    <p>Aantal ingekochte tv's:
+        <spam id="total-original-stock"></spam>
+    </p>
+</div>
+<div>
+    <p>Aantal nog te verkopen`tv's:
+        <span id="stock-left-to-sell"></span>
+    </p>
+</div>
+<div>
+    <ul id="brands"></ul>
+</div>
+<div id="television-object-info"></div>
+<div>
+    <button onclick="allTelevisionsInfo(sortTv(inventory))" type="button">Sorteer op prijs</button>
+    <button onclick="allTelevisionsInfo(ambiTv(inventory))" type="button">AmbiLight TV's</button>
+    <button onclick="allTelevisionsInfo(outOfStock(inventory))" type="button">Uitverkochte exemplaren</button>
+</div>
+<div id="all-televisions-info"></div>
 </body>
 </html>
